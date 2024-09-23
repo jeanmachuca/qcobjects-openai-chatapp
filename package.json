@@ -119,7 +119,7 @@
         "qcobjects": "^2.4.95",
         "qcobjects-admin": "^1.0.0",
         "qcobjects-command-publish-static": "^1.0.4",
-        "qcobjects-openai-api": "^1.0.11",
+        "qcobjects-openai-api": "^1.0.14",
         "qcobjects-sdk": "^2.4.64"
     },
     "engines": {
