@@ -1,0 +1,2 @@
+import{a as s}from"./chunk-4REVH2V3.js";import{c as i}from"./chunk-2PAT6UH3.js";var o=i(e=>{Object.defineProperty(e,"__esModule",{value:!0});var t=s();(0,t.RegisterWidgets)("layout-basic","splash-screen","github-grid","octocat-icon","lib-list");(0,t.RegisterWidgets)("gitpod-button","netlify-button","aws-button","github-button","codespaces-button","deploy-grid")});export{o as a};
+//# sourceMappingURL=chunk-OOCUCXXK.js.map

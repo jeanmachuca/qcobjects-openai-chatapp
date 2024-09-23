@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../build/js/customWidgets.js"],
+  "sourcesContent": ["\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nconst qcobjects_1 = require(\"qcobjects\");\n(0, qcobjects_1.RegisterWidgets)(\"layout-basic\", \"splash-screen\", \"github-grid\", \"octocat-icon\", \"lib-list\");\n(0, qcobjects_1.RegisterWidgets)(\"gitpod-button\", \"netlify-button\", \"aws-button\", \"github-button\", \"codespaces-button\", \"deploy-grid\");\n"],
+  "mappings": "gFAAA,IAAAA,EAAAC,EAAAC,GAAA,CACA,OAAO,eAAeA,EAAS,aAAc,CAAE,MAAO,EAAK,CAAC,EAC5D,IAAMC,EAAc,OAChBA,EAAY,iBAAiB,eAAgB,gBAAiB,cAAe,eAAgB,UAAU,KACvGA,EAAY,iBAAiB,gBAAiB,iBAAkB,aAAc,gBAAiB,oBAAqB,aAAa",
+  "names": ["require_customWidgets", "__commonJSMin", "exports", "qcobjects_1"]
+}
