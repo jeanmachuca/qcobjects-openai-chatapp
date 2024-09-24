@@ -1,0 +1,32 @@
+# Exported from Render on 2024-09-24T00:03:27Z
+services:
+- type: web
+  name: qcobjects-openai-chatapp
+  runtime: docker
+  repo: https://github.com/jeanmachuca/qcobjects-openai-chatapp
+  plan: free
+  envVars:
+  - key: CERTIFICATE_PROVIDER
+    sync: false
+  - key: DOMAIN
+    sync: false
+  - key: GOOGLE_API_KEY
+    sync: false
+  - key: MICROSOFT_API_KEY
+    sync: false
+  - key: DEFAULT_PASSWORD
+    sync: false
+  - key: DEFAULT_USER
+    sync: false
+  - key: DATABASE_NAME
+    sync: false
+  - key: ENGINE_NAME
+    sync: false
+  - key: DEVMODE
+    sync: false
+  - key: OPENAI_API_KEY
+    sync: false
+  region: oregon
+  dockerContext: .
+  dockerfilePath: ./Dockerfile
+version: "1"
