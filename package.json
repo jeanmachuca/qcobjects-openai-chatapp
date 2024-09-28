@@ -69,7 +69,7 @@
         "docker-compose-server": "docker-compose -f docker-compose.yml up --quiet-pull -d qcobjects",
         "start:docker-compose": "npm run build:docker-compose && npm run docker-compose-server",
         "prepare": "node -e \"if(!require('fs').existsSync('.git')){process.exit(0)}\" || npx -y husky install",
-        "prestart": "npm run publish:web",
+        "prestart": "npm config set legacy-peer-deps true || npm run publish:web",
         "cli:help": "qcobjects --help",
         "start:dev": "npm-watch start",
         "build:dev": "npm-watch build",
