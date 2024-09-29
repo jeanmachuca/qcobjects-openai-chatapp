@@ -31,7 +31,7 @@
         "preversion": "npm i --upgrade && npm test",
         "postversion": "git push && git push --tags",
         "coverage": "nyc --reporter=lcov --reporter=text-summary npm run test",
-        "start": "npm run createcert && npm run serve",
+        "start": "npm run serve",
         "start:parcel": "npx parcel --dist-dir public",
         "serve": "npx qcobjects-server",
         "server": "npm run serve",
