@@ -50,6 +50,7 @@ COPY package*.json ./
 #Run the initial install init scripts for jasmine and cache verify
 #RUN jasmine init
 RUN npm cache verify
+RUN npm config set legacy-peer-deps true 
 RUN npm i
 
 
